@@ -1,6 +1,13 @@
 ## CodeAsylums Test
 Welcome to the CodeAsylums challenge !
 
+
+#### Objective
+To test the full-stack skills, we will post the updates and links in slack channel.
+
+Links will be shared on the slack channels.
+Join the slack group : [CertificationGroupCA](https://bit.ly/CertificationGroupCA), and add yourself in `#fullstack` group.
+
 #### Overview
 
 1. This folder has 4 sub folder, 
