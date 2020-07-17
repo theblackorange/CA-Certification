@@ -18,13 +18,14 @@ in `FullStackBatch` challenge, then your submissions folder directory should loo
 ```
 |---submissions
     |---username-FullName
-        |---FullStackBatch
-            |---test_fullstack
-                |--solutionFile
-            |---test_git
-                |--solutionFile
-            |---test_hosting
-                |--solutionFile
+        |---assignments
+            |---FullStackBatch
+                |---test_fullstack
+                    |--solutionFile
+                |---test_git
+                    |--solutionFile
+                |---test_hosting
+                    |--solutionFile
 ```
 
 Copy all the boilerplate and directory in the same way, and include your changes.
@@ -34,9 +35,16 @@ Copy all the boilerplate and directory in the same way, and include your changes
 ```
 |---submissions
     |---username-FullName
-        |---MLBatch
-            |---submissionFile
+        |---assignments
+            |---MLBatch
+                |---submissionFile
 ```
+
 
 - Your PR should be have name: 
 `fullstack-git-hosting`
+
+
+
+**NOTE : For coding and DataAnalytics submissions criteria will be informed in respective slack channels.** 
+
