@@ -22,13 +22,13 @@ const userSchema=mongoose.Schema(
             required:true
         },
         education:{
-            type:String
+            type: String,
         },
         workExperience:{
-            type:String
+            type: String,
         },
         following:{
-            type:[String]
+            type:[String],
         }
 
     });

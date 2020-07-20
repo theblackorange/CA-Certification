@@ -11,7 +11,6 @@ const CodingSchema=mongoose.Schema(
         hackerRank:
         {
             type:String,
-            rquired:true
         },
         hackerEarth:{
             type:String
@@ -21,9 +20,8 @@ const CodingSchema=mongoose.Schema(
         },
         github:{
             type:String,
-            required:true
         },
-        gitBucket:{
+        bitBucket:{
             type:String
         },
         gitLab:{
@@ -34,9 +32,8 @@ const CodingSchema=mongoose.Schema(
         },
         skills:{
             type:[String],
-            required:true
         }
     }
 );
 
-module.exports=mongoose.model('coding',codingSchema);
+module.exports=mongoose.model('coding',CodingSchema);

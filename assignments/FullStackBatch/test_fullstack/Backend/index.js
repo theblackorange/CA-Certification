@@ -12,6 +12,8 @@ mongoose.connect('mongodb+srv://cacerti:cacerti@cluster0.1ldb9.mongodb.net/cacer
 const user=require('./routes/user');
 app.use('/user',user);
 
+const coder=require('./routes/coding');
+app.use('/coder',coder);
 
 app.get('/',function(req,res)
 {
